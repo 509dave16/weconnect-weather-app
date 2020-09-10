@@ -1,9 +1,6 @@
 # WeConnect Weather App
 Social app assessment for Henri Home, including users directory, feed, and todo list tabs, based on instructions found [here](https://github.com/henri-home/henri-mobile-interview-project)
 
-# Demonstration
-You can watch a video demonstration [here](https://drive.google.com/file/d/1tP-yUojVkwAZsYqEL18xYNNeP79sR-8K/view?usp=sharing) that's hosted on Google Drive
-
 # Demo App
 - You can access the demo app from the Expo Client you have installed on your phone by following this url: https://exp.host/@509dave16/Weather
 - Or you can install the [APK](https://drive.google.com/file/d/1hJilsxqOO7fUowKxjkvjP3Mdi0UtAuhH/view?usp=sharing) on your device, following the instructions here: https://docs.expo.io/distribution/building-standalone-apps/#5-test-it-on-your-device-or
