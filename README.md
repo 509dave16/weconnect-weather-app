@@ -9,6 +9,7 @@ Social app assessment for Henri Home, including users directory, feed, and todo 
 - Install nvm in order to use Node 12.13.1: https://github.com/nvm-sh/nvm#installing-and-updating
 - `nvm install v12.13.1`
 - `nvm use v12.13.1`
+- `npm i -g expo-cli`
 - `git clone https://github.com/509dave16/weconnect-weather-app.git`
 - `cd weconnect-weather-app`
 - `npm i`
