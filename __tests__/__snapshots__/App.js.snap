@@ -1,0 +1,1097 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders data correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#b9e1f8",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "paddingHorizontal": 25,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginTop": 166.75,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 40,
+            }
+          }
+        >
+          Spokane
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+            }
+          }
+        >
+          Clear
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 60,
+            }
+          }
+        >
+          60
+          °
+        </Text>
+        <View
+          style={
+            Object {
+              "marginTop": 83.375,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "50%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Feels Like
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "50%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                56
+                °
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "50%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Wind
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "50%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                50
+                ° / 
+                3.36
+                 mph
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={Object {}}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "marginVertical": 41.6875,
+            }
+          }
+        >
+          Forecast:
+        </Text>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Thursday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                AM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clear
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                58
+                °
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Thursday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                PM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clear
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                85
+                °
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Friday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                AM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clear
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                60
+                °
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Friday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                PM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clear
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                85
+                °
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Saturday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                AM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clouds
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                58
+                °
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Saturday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                PM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clouds
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                88
+                °
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Sunday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                AM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clouds
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                62
+                °
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Sunday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                PM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clouds
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                75
+                °
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Monday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                AM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clouds
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                62
+                °
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginBottom": 5,
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "40%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Monday
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                PM
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Clouds
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 0,
+                  "width": "20%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 18,
+                    "textAlign": "left",
+                  }
+                }
+              >
+                73
+                °
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`renders loading state correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#b9e1f8",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    testID="App-ActivityIndicator"
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </View>
+</RNCSafeAreaView>
+`;
