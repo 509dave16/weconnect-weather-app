@@ -40,4 +40,14 @@ In this file that we have a common `openWeatherRequest` function that is used to
 ### Deriving Daily Forecast Data
 - The original key provided and the key that I generated for myself both give access to API usage under the **Free Plan**. At that time that I was implementing the project, the `onecall` OpenWeather endpoing was to the best of my knowledge not available under the **Free Plan**. So in order to get `AM` and `PM` period data for each day, we derived it from the `forecast` endpoint by grouping the 3 hour periods by their date and then picking from each group the max and min weather by temperature which were assigned to the `AM` and `PM` period data respectively. It would be an improvement to transition from using the `forecast` endpoint to instead leveraging the `onecall` endpoint which has `daily` data containing `morn`, `day`, `eve`, and `night` actual temps and feels like temps. However it only contains one `weather` condition for the entire day. And we need the `weather` condition for `AM` and `PM`. So that would be one caveat that might dissuade us from transitioning.
 
+## UI
+Considering that this project only consists of one screen, the UI implementation consists of the following components
+- `App.tsx` - Essentially acts as the single screen for the project. Displays current weather and daily forecasts.
+- `components/Weather.tsx` - Display the current weather for the day.
+- `components/Forecasts.tsx` - Displays a list of daily forecasts.
+- `components/DayForecast.tsx` - Displays the AM/PM periods of weather for a day.
+
+Below is a screenshot with the component structure outlined:
+<img src="https://i.postimg.cc/9fkdz3Kz/Image-from-i-OS-31.png" width="562" height="1000" />
+
 
