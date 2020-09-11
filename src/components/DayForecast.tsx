@@ -1,7 +1,7 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 
-import { PeriodForecast, DailyForecast } from '../interfaces/DailyForecast';
+import { PeriodForecast, DailyForecast } from '../interfaces/DailyForecast'
 
 const daysOfWeek = [
   'Sunday',

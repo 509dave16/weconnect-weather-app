@@ -1,15 +1,15 @@
-import React from 'react';
-import { StyleSheet, Text, ScrollView, View, ActivityIndicator, Dimensions } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import React from 'react'
+import { StyleSheet, Text, ScrollView, View, ActivityIndicator, Dimensions } from 'react-native'
+import { StatusBar } from 'expo-status-bar'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import Weather from './components/Weather';
-import Forecasts from './components/Forecasts';
+import Weather from './components/Weather'
+import Forecasts from './components/Forecasts'
 
-import * as OpenWeather from './services/openWeather';
-import { ApiResponse } from './interfaces/ApiResponse';
-import { ApiResponseState } from './interfaces/Enums';
-import { CurrentWeather } from './interfaces/CurrentWeather';
-import { DailyForecast } from './interfaces/DailyForecast';
+import * as WeatherService from './services/weather'
+import { ApiResponse } from './interfaces/ApiResponse'
+import { ApiResponseState } from './interfaces/Enums'
+import { CurrentWeather } from './interfaces/CurrentWeather'
+import { DailyForecast } from './interfaces/DailyForecast'
 
 const location = 'Spokane'
 const backgroundColor = '#b9e1f8'
@@ -32,8 +32,12 @@ export default class App extends React.Component<{}, State> {
     this.fetchDailyForecasts();
   }
 
+  componentDidCatch(error: any, errorInfo: any) {
+    console.log('<<<App ErrorBoundary', error, errorInfo)
+  }
+
   async fetchCurrentWeather() {
-    const response: ApiResponse = await OpenWeather.currentWeather({
+    const response: ApiResponse = await WeatherService.currentWeather({
       body: new URLSearchParams({
         q: location,
         units: 'imperial'
@@ -45,11 +49,11 @@ export default class App extends React.Component<{}, State> {
       nextState.currentWeather = response.result
     }
     this.setState(nextState)
-    console.log('<<<fetchCurrentWeather - response', response)
+    // console.log('<<<fetchCurrentWeather - response', response)
   }
 
   async fetchDailyForecasts() {
-    const response: ApiResponse = await OpenWeather.dailyForecasts({
+    const response: ApiResponse = await WeatherService.dailyForecasts({
       body: new URLSearchParams({
         q: location,
         units: 'imperial'
@@ -88,7 +92,7 @@ export default class App extends React.Component<{}, State> {
 
   renderStatus() {
     return (
-      <View style={styles.statusContainer}>
+      <View testID='App-ActivityIndicator' style={styles.statusContainer}>
         <ActivityIndicator size='large' />
       </View>
     )

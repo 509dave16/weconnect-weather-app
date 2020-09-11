@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, Dimensions } from 'react-native'
 
-import { CurrentWeather } from '../interfaces/CurrentWeather';
+import { CurrentWeather } from '../interfaces/CurrentWeather'
 
 interface Props {
   currentWeather?: CurrentWeather

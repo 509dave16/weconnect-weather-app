@@ -41,10 +41,7 @@ function getDailyForecast(name: String, dailyForecastGroup: Array<any>): DailyFo
 
 function getDailyForecastsFromJson(json: any): Array<DailyForecast> {
   // console.log('<<<getDailyForecastsFromJson -', json)
-  const { city: { name, timezone }, sunrise, sunset, list } = json
-  const sunRisingAt = new Date(sunrise * 1000)
-  const sunSettingAt = new Date(sunset * 1000)
-  // console.log('<<<sunRisingAt/sunSettingAt', sunRisingAt, sunSettingAt)
+  const { city: { name, timezone }, list } = json
   list.forEach((forecast: any) => { forecast.dt_txt = (new Date((forecast.dt + timezone) * 1000)).toISOString() })
   const dailyForecastGroups = _.groupBy(list, getDateString)
   return _.values(dailyForecastGroups)
@@ -61,18 +58,18 @@ function getRequest(resource: String, options: RequestInit): Request {
   return new Request(url, options)
 }
 
-async function openWeatherRequest(resource: String, options: RequestInit = {}, transformData: Function): Promise<ApiResponse> {
+async function weatherApiRequest(resource: String, options: RequestInit = {}, transformData: Function): Promise<ApiResponse> {
   let state: ApiResponseState = ApiResponseState.SUCCESS
   let result: any = null
 
-  // console.log('<<<openWeatherRequest - options.body', options?.body)
+  // console.log('<<<weatherApiRequest - options.body', options?.body)
   if (options?.body instanceof URLSearchParams) {
     options.body.append('appid', OPEN_WEATHER_APP_ID)
   }
 
   try {
-    const response: Response = await fetch(getRequest(resource, options));
-    const json: JSON = await response.json();
+    const response: Response = await fetch(getRequest(resource, options))
+    const json: JSON = await response.json()
 
     if (response.status >= 400) {
       state = ApiResponseState.ERROR
@@ -92,9 +89,9 @@ async function openWeatherRequest(resource: String, options: RequestInit = {}, t
 }
 
 export async function currentWeather(options: RequestInit): Promise<ApiResponse> {
- return openWeatherRequest('weather', options, getCurrentWeatherFromJson)
+ return weatherApiRequest('weather', options, getCurrentWeatherFromJson)
 }
 
 export function dailyForecasts(options: RequestInit): Promise<ApiResponse> {
-  return openWeatherRequest('forecast', options, getDailyForecastsFromJson)
+  return weatherApiRequest('forecast', options, getDailyForecastsFromJson)
 }
