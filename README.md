@@ -48,6 +48,7 @@ Considering that this project only consists of one screen, the UI implementation
 - `components/DayForecast.tsx` - Displays the AM/PM periods of weather for a day.
 
 Below is a screenshot with the component structure outlined:
+
 <img src="https://i.postimg.cc/9fkdz3Kz/Image-from-i-OS-31.png" width="562" height="1000" />
 
 
